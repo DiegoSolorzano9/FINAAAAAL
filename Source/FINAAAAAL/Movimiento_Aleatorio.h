@@ -13,11 +13,11 @@ class FINAAAAAL_API UMovimiento_Aleatorio : public UActorComponent
 	GENERATED_BODY()
 
 public:	
-	// Sets default values for this component's properties
+	/// Sets default values for this component's properties
 	UMovimiento_Aleatorio();
 
 protected:
-	// Called when the game starts
+	// Called when the game starts.
 	virtual void BeginPlay() override;
 
 public:	
