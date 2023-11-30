@@ -13,14 +13,10 @@ class UStrategy_Interface : public UInterface
 	GENERATED_BODY()
 };
 
-/**
- * 
- */
 class FINAAAAAL_API IStrategy_Interface
 {
 	GENERATED_BODY()
 
-	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 
 	virtual void Realizar()= 0;

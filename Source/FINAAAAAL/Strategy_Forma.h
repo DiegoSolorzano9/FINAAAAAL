@@ -17,45 +17,39 @@ class FINAAAAAL_API AStrategy_Forma : public ASol, public IStrategy_Interface, p
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
+
 	AStrategy_Forma();
 
 protected:
-	// Called when the game starts or when spawned
+
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
+
 	virtual void Tick(float DeltaTime) override;
 
-	virtual void Realizar() override;
+	virtual void Realizar() override {};
 
 	//vida aleatoria entre 5.0f y 15.0f
 	float VidaForma = FMath::RandRange(5.0f, 15.0f);
-
 	// Initialize the Estado variable to true
 	bool EstadoCambioForma = true;
-
 	// Initialize the NumeroCambio variable
 	int NumeroCambio = 0;
-
 	// Initialize the LastChangeTime variable
 	float LastChangeTime = 0.0f;
-
 	float ScaleFactor = 4.0f;
 
 private:
+
 	UPROPERTY()
 	ASol* SolForma;
 
 public:
 
 	virtual void Destroyed() override;
-
 	virtual void Actualizar(class AObserver_Publicador* Publicador) override;
-
 	virtual void Transformacion() override;
-
 	void definirFuncion(ASol* myForma_Sol);
 
 

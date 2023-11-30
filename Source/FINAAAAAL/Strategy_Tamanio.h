@@ -12,9 +12,6 @@
 #include "GameFramework/Actor.h"
 #include "Strategy_Tamanio.generated.h"
 
-
-
-
 class ASol;
 UCLASS()
 class FINAAAAAL_API AStrategy_Tamanio : public ASol, public IStrategy_Interface, public IObserver_Suscriptor, public IObserver_Transformacion
@@ -25,15 +22,15 @@ class FINAAAAAL_API AStrategy_Tamanio : public ASol, public IStrategy_Interface,
 	UMovimiento_Aleatorio* Movimiento_Aleatorio;
 
 public:	
-	// Sets default values for this actor's properties
+
 	AStrategy_Tamanio();
 
 protected:
-	// Called when the game starts or when spawned
+
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
+	
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void Realizar() override;
@@ -45,10 +42,8 @@ public:
 
 	float LastChangeTime = 0.0f;
 
-
-	//float vidaActualTamanio = VidaTamanio;
-
 private:
+
 	UPROPERTY()
 	ASol* SolTamanio;
 
@@ -62,13 +57,7 @@ public:
 
 	void definirFuncion(ASol* myForma_Sol);
 
-
 	UPROPERTY(BlueprintReadWrite, Category = "Strategy")
 	FTimerHandle TimerHandle;
 	void ReduceLife();
-
-
-
-
-
 };

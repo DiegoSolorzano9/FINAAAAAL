@@ -13,7 +13,7 @@ UCLASS()
 class FINAAAAAL_API ASol : public AObserver_Publicador
 {
 public:	
-	// Sets default values for this actor's properties
+
 	ASol();
 
 	GENERATED_BODY()
@@ -22,20 +22,22 @@ public:
 	UStaticMeshComponent* MeshAspecto;
 
 protected:
-	// Called when the game starts or when spawned
+
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
+
 	virtual void Tick(float DeltaTime) override;
-
-	IStrategy_Interface* Estrategia;
-
-	void Casteo(AActor* _Estrategia);
-	void LlamarEstrategia();
 
 	FString Estado1;
 
+	IStrategy_Interface* Estrategia;
+
+	//para asignar estrategias
+	void Casteo(AActor* _Estrategia);
+	void LlamarEstrategia();
+
+	//para cambiar estados
 	void EstadoCambiado();
 	void DefinirEstado(FString myEstado);
 	FORCEINLINE FString GetEstado() { return Estado1; }

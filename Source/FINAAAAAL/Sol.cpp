@@ -3,10 +3,8 @@
 
 #include "Sol.h"
 
-// Sets default values
 ASol::ASol()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	MeshAspecto = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Aspecto"));
@@ -16,14 +14,12 @@ ASol::ASol()
 	MeshAspecto->SetRelativeScale3D(FVector(4.0f, 4.0f, 4.0f));
 }
 
-// Called when the game starts or when spawned
 void ASol::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
-// Called every frame
 void ASol::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

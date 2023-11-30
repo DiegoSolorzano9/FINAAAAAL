@@ -85,7 +85,7 @@ public: \
 
 
 #define FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_10_PROLOG
-#define FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_21_GENERATED_BODY_LEGACY \
+#define FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_13_SPARSE_DATA \
@@ -95,7 +95,7 @@ public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_21_GENERATED_BODY \
+#define FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FINAAAAAL_Source_FINAAAAAL_Strategy_Interface_h_13_SPARSE_DATA \

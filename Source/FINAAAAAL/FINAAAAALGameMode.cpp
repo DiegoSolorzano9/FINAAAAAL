@@ -9,26 +9,13 @@
 
 AFINAAAAALGameMode::AFINAAAAALGameMode()
 {
-	// set default pawn class to our character class
 	DefaultPawnClass = AFINAAAAALPawn::StaticClass();
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 void AFINAAAAALGameMode::BeginPlay()
 {
 	Super::BeginPlay();
-
-	/*ASol* Publicador = GetWorld()->SpawnActor<ASol>(ASol::StaticClass(), FVector(), FRotator::ZeroRotator);
-	
-	AStrategy_Tamanio* Observer_Tamanio = GetWorld()->SpawnActor<AStrategy_Tamanio>(AStrategy_Tamanio::StaticClass(), FVector(), FRotator::ZeroRotator);
-	Observer_Tamanio->definirFuncion(Publicador);
-
-	Publicador->DefinirEstado("DestruirTamanio");*/
-
-
-
-
 }
 
 void AFINAAAAALGameMode::Tick(float DeltaTime)
@@ -63,31 +50,9 @@ void AFINAAAAALGameMode::Tick(float DeltaTime)
 				Contexto->LlamarEstrategia();
 
 
-				/*ASol* Publicador = GetWorld()->SpawnActor<ASol>(ASol::StaticClass(), FVector(x2, y2, z), FRotator::ZeroRotator);
-				AStrategy_Tamanio* Observer_Tamanio = GetWorld()->SpawnActor<AStrategy_Tamanio>(AStrategy_Tamanio::StaticClass(), FVector(), FRotator::ZeroRotator);
-				Observer_Tamanio->definirFuncion(Publicador);
-				Publicador->DefinirEstado("DestruirTamanio");*/
-
-
 				Strategy_Tamanio->definirFuncion(Contexto);
 				Contexto->DefinirEstado("DestruirTamanio");
-
-				/*Strategy_Forma->definirFuncion(Contexto);
-				Contexto->DefinirEstado("DestruirForma");*/
-
-				/*ASol* Publicador = GetWorld()->SpawnActor<ASol>(ASol::StaticClass(), FVector(x1, y1, z), FRotator::ZeroRotator);
-				AStrategy_Forma* Observer_Tamanio = GetWorld()->SpawnActor<AStrategy_Forma>(AStrategy_Forma::StaticClass(), FVector(), FRotator::ZeroRotator);
-				Observer_Tamanio->definirFuncion(Publicador);
-				Publicador->DefinirEstado("DestruirForma");*/
-			
-				
 			}
-
-
-			/*ASol* Publicador = GetWorld()->SpawnActor<ASol>(ASol::StaticClass(), FVector(), FRotator::ZeroRotator);
-			AStrategy_Tamanio* Observer_Tamanio = GetWorld()->SpawnActor<AStrategy_Tamanio>(AStrategy_Tamanio::StaticClass(), FVector(), FRotator::ZeroRotator);
-			Observer_Tamanio->definirFuncion(Publicador);
-			Publicador->DefinirEstado("DestruirTamanio");*/
 
 			SolesCreados++;
 		}
