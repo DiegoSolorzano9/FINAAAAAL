@@ -40,6 +40,8 @@ public:
 	float LastChangeTime = 0.0f;
 	float ScaleFactor = 4.0f;
 
+	float vidaActualForma = VidaForma;
+
 private:
 
 	UPROPERTY()

@@ -42,6 +42,9 @@ public:
 
 	float LastChangeTime = 0.0f;
 
+	float vidaActualTamanio = VidaTamanio;
+
+
 private:
 
 	UPROPERTY()

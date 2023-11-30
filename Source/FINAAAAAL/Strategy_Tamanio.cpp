@@ -56,7 +56,17 @@ void AStrategy_Tamanio::Transformacion()
 
 	if (!Estado.Compare("DestruirTamanio"))
 	{
-		GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AStrategy_Tamanio::ReduceLife, 5.0f, true);	
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Vida: %f"), VidaTamanio));
+		while (vidaActualTamanio > 2.0f)
+		{
+			vidaActualTamanio -= 2.0f;
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, FString::Printf(TEXT("Vida: %f"), vidaActualTamanio));
+		}
+
+		if (vidaActualTamanio <= 2.0f)
+		{
+			GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AStrategy_Tamanio::ReduceLife, 5.0f, true);	
+		}
 	}
 }
 
@@ -73,21 +83,10 @@ void AStrategy_Tamanio::definirFuncion(ASol* myTamanio_Sol)
 
 void AStrategy_Tamanio::ReduceLife()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Vida: %f"), VidaTamanio));
-	float vidaActualTamanio = VidaTamanio;
-	while (vidaActualTamanio > 2.0f)
-	{
-		vidaActualTamanio -= 2.0f;
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, FString::Printf(TEXT("Vida: %f"), vidaActualTamanio));
-	}
+	//destruir sol
+	SolTamanio->Destroy();
+	//destruir Strategy_Tamanio
+	this->Destroy();
 
-	if (vidaActualTamanio <= 2.0f)
-	{
-		//destruir sol
-		SolTamanio->Destroy();
-		//destruir Strategy_Tamanio
-		this->Destroy();
-
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Purple, FString::Printf(TEXT("Sol con Tamanio destruido")));
-	}
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Purple, FString::Printf(TEXT("Sol con Tamanio destruido")));
 }

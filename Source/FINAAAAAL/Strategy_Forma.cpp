@@ -73,7 +73,21 @@ void AStrategy_Forma::Transformacion()
 
 	if (!Estado.Compare("DestruirForma"))
 	{
-		GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AStrategy_Forma::ReduceLifeForma, 5.0f, true);
+
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Vida: %f"), VidaForma));
+
+		while (vidaActualForma > 2.0f)
+		{
+
+			vidaActualForma -= 2.0f;
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, FString::Printf(TEXT("Vida: %f"), vidaActualForma));
+
+		}
+
+		if (vidaActualForma <= 2.0f)
+		{
+			GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AStrategy_Forma::ReduceLifeForma, 5.0f, true);
+		}
 	}
 }
 
@@ -90,23 +104,9 @@ void AStrategy_Forma::definirFuncion(ASol* myForma_Sol)
 
 void AStrategy_Forma::ReduceLifeForma()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Vida: %f"), VidaForma));
-	float vidaActualForma = VidaForma;
+	SolForma->Destroy();
+	this->Destroy();
 
-	while (vidaActualForma > 2.0f)
-	{
-
-		vidaActualForma -= 2.0f;
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, FString::Printf(TEXT("Vida: %f"), vidaActualForma));
-
-	}
-
-	if (vidaActualForma <= 2.0f)
-	{
-		SolForma->Destroy();
-		this->Destroy();
-
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Sol con Forma destruido")));
-	}
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Sol con Forma destruido")));
 }
 
