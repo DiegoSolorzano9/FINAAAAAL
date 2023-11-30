@@ -1,0 +1,3 @@
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Definitions.FINAAAAAL.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Observer_Suscriptor.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Observer_Suscriptor.generated.h

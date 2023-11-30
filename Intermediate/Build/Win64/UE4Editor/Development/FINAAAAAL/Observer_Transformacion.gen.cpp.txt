@@ -1,0 +1,5 @@
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Definitions.FINAAAAAL.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL/Observer_Transformacion.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Observer_Transformacion.generated.h

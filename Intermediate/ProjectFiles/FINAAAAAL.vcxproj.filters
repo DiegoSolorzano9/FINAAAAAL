@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FINAAAAAL.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{50BCC552-22F4-4837-B792-22F6A147944D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FINAAAAAL.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FINAAAAALEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EAF717D3-5438-4894-A400-3C9785545880}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FINAAAAAL">
+      <UniqueIdentifier>{40BB18A1-4F65-43A9-BA73-DDEB5B6F8BAD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FINAAAAAL\FINAAAAAL.Build.cs">
+      <Filter>Source\FINAAAAAL</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FINAAAAAL\FINAAAAAL.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\FINAAAAAL.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\FINAAAAALGameMode.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\FINAAAAALGameMode.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\FINAAAAALPawn.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\FINAAAAALPawn.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\FINAAAAALProjectile.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\FINAAAAALProjectile.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Movimiento_Aleatorio.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Movimiento_Aleatorio.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Observer_Publicador.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Observer_Publicador.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Observer_Suscriptor.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Observer_Suscriptor.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Observer_Transformacion.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Observer_Transformacion.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Sol.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Sol.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Strategy_Explocion.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Strategy_Explocion.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Strategy_Forma.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Strategy_Forma.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Strategy_Interface.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Strategy_Interface.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FINAAAAAL\Strategy_Tamanio.cpp">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FINAAAAAL\Strategy_Tamanio.h">
+      <Filter>Source\FINAAAAAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

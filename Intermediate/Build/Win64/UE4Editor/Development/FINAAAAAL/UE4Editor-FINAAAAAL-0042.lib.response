@@ -1,0 +1,37 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FINAAAAAL-0042.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\FINAAAAALEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAAL.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAALGameMode.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAALPawn.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAALProjectile.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Movimiento_Aleatorio.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Observer_Publicador.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Observer_Suscriptor.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Observer_Transformacion.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Sol.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Explocion.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Forma.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Interface.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Tamanio.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAAL.init.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAALGameMode.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAALPawn.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\FINAAAAALProjectile.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Movimiento_Aleatorio.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Observer_Publicador.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Observer_Suscriptor.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Observer_Transformacion.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Sol.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Explocion.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Forma.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Interface.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Strategy_Tamanio.gen.cpp.obj"
+"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Default.rc2.res"
+/OUT:"D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\UE4Editor-FINAAAAAL-0042.lib"

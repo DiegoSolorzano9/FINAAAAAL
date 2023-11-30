@@ -1,0 +1,3 @@
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Definitions.FINAAAAAL.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Strategy_Interface.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Strategy_Interface.generated.h

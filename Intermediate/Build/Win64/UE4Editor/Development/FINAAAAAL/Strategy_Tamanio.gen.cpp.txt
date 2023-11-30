@@ -1,0 +1,19 @@
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Development\FINAAAAAL\Definitions.FINAAAAAL.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL/Strategy_Tamanio.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Sol.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Observer_Publicador.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Observer_Publicador.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Strategy_Interface.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Strategy_Interface.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Sol.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Movimiento_Aleatorio.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Movimiento_Aleatorio.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Strategy_Explocion.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Strategy_Explocion.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Observer_Transformacion.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Observer_Transformacion.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Source\FINAAAAAL\Observer_Suscriptor.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Observer_Suscriptor.generated.h
+D:\Proyectos Unreal\FINAAAAAL\Intermediate\Build\Win64\UE4Editor\Inc\FINAAAAAL\Strategy_Tamanio.generated.h
